@@ -193,17 +193,3 @@ public:
 
 };
 
-int main()
-{
-	List<int> list;
-
-	list.push_back(10);
-	list.push_back(5);
-	list.push_back(10);
-
-	list.remove(10);
-
-	cout << list.empty() << endl;
-
-	return 0;
-}

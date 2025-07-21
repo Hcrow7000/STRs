@@ -194,22 +194,3 @@ public:
 	}
 };
 
-int main()
-{
-	List<int> list;
-
-	list.push_front(10);
-	list.push_front(5);
-	list.push_front(10);
-	list.push_back(10);
-	list.push_back(30);
-
-	list.remove(10);
-
-	list.pop_front();
-	list.pop_back();
-
-	cout << list.empty() << endl;
-
-	return 0;
-}

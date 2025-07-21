@@ -3,43 +3,28 @@
 using namespace std;
 
 template <typename T>
-class List
+class Vector
 {
 private:
-	struct Node
+	struct Stack
 	{
+		int count;
+		int capacity;
 
-		Node* next;
-		T data;
 	};
 
-	int size;
-	Node* head;
+
 
 public:
-	List()
+	Head()
 	{
-		size = 0;
-		head = nullptr;
+		
 	}
-
-	void push_back(T data)
-	{
-		if (head == nullptr)
-		{
-			
-		}
-		else
-		{
-
-		}
-	}
-
 };
 
 int main()
-{
-
+{	
+	
 
 	return 0;
 }
