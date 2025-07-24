@@ -2,39 +2,38 @@
 
 using namespace std;
 
-template <typename T>
-class Stack
+#define SIZE 4
+
+template<typename T>
+class Queue
 {
 private:
-	int count;
-	int highset;
-	int capacity;
+	int rear;
+	int front;
 
-	T* container
+	T container[SIZE];
 
 public:
-	Stack()
+	Queue()
 	{
-		count = 0;
-		highset = -1;
-		capacity = 0;
+		rear = SIZE - 1;
+		front = SIZE - 1;
 
-		container = nullptr;
+		for (int i=0; i<SIZE ; i++)	
+		{
+			container[i] = NULL;
+		}
 	}
 
-	~Stack()
+	void push(T data)
 	{
-		if (container != nullptr)
-		{
-			delete[] container;
-		}
+
 	}
 
 };
 
 int main()
 {
-
 
 	return 0;
 }
