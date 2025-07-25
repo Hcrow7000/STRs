@@ -1,3 +1,2 @@
 ﻿  Program.cpp
-C:\Users\juno0\Desktop\STRs\STR\Program.cpp(88,1): warning C4172: 지역 변수 또는 임시 의 주소를 반환하는 중
   STR.vcxproj -> C:\Users\juno0\Desktop\STRs\STR\x64\Debug\STR.exe
