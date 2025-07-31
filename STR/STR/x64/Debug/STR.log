@@ -1,2 +1,27 @@
 ﻿  Program.cpp
-  STR.vcxproj -> C:\Users\juno0\Desktop\STRs\STR\x64\Debug\STR.exe
+C:\Users\juno0\Desktop\STRs\STR\Program.cpp(151,22): error C2597: 비정적 멤버 'Graph<char>::size'에 대한 참조가 잘못되었습니다.
+      C:\Users\juno0\Desktop\STRs\STR\Program.cpp(151,22):
+      'Graph<char>::size' 선언을 참조하십시오.
+      C:\Users\juno0\Desktop\STRs\STR\Program.cpp(151,22):
+      템플릿 인스턴스화 컨텍스트(가장 오래된 인스턴스화 컨텍스트)가
+          C:\Users\juno0\Desktop\STRs\STR\Program.cpp(192,14):
+          컴파일되는 클래스 템플릿 인스턴스화 'Graph<char>'에 대한 참조를 확인하세요.
+          C:\Users\juno0\Desktop\STRs\STR\Program.cpp(147,18):
+          클래스 템플릿 멤버 함수 'std::ostream &operator <<(std::ostream &,const Graph<char> &)'을(를) 컴파일하는 중입니다.
+              C:\Users\juno0\Desktop\STRs\STR\Program.cpp(204,16):
+              'main'에서 'operator <<'에 대한 첫 번째 참조를 확인하세요.
+  
+C:\Users\juno0\Desktop\STRs\STR\Program.cpp(151,22): error C3867: 'Graph<char>::size': 비표준 구문입니다. '&'를 사용하여 멤버 포인터를 만드세요.
+C:\Users\juno0\Desktop\STRs\STR\Program.cpp(151,22): error C2568: '<': 함수 오버로드를 확인할 수 없습니다.
+C:\Users\juno0\Desktop\STRs\STR\Program.cpp(158,22): error C2597: 비정적 멤버 'Graph<char>::count'에 대한 참조가 잘못되었습니다.
+      C:\Users\juno0\Desktop\STRs\STR\Program.cpp(158,22):
+      'Graph<char>::count' 선언을 참조하십시오.
+  
+C:\Users\juno0\Desktop\STRs\STR\Program.cpp(158,22): error C3867: 'Graph<char>::count': 비표준 구문입니다. '&'를 사용하여 멤버 포인터를 만드세요.
+C:\Users\juno0\Desktop\STRs\STR\Program.cpp(158,22): error C2568: '<': 함수 오버로드를 확인할 수 없습니다.
+C:\Users\juno0\Desktop\STRs\STR\Program.cpp(162,23): error C2597: 비정적 멤버 'Graph<char>::count'에 대한 참조가 잘못되었습니다.
+      C:\Users\juno0\Desktop\STRs\STR\Program.cpp(162,23):
+      'Graph<char>::count' 선언을 참조하십시오.
+  
+C:\Users\juno0\Desktop\STRs\STR\Program.cpp(162,23): error C3867: 'Graph<char>::count': 비표준 구문입니다. '&'를 사용하여 멤버 포인터를 만드세요.
+C:\Users\juno0\Desktop\STRs\STR\Program.cpp(162,23): error C2568: '<': 함수 오버로드를 확인할 수 없습니다.

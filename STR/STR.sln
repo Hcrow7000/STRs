@@ -5,13 +5,13 @@ VisualStudioVersion = 17.13.35919.96
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "STR", "STR.vcxproj", "{0EF4A764-77F3-4228-B7F0-5DDB7463E720}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class 1th (Single Linked List)", "..\Class1th (Single Linked List)\Class1th (Single Linked List).vcxproj", "{E4A4AAB0-3B9F-4C87-A23C-653CC911CF0B}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class1th (Single Linked List)", "..\Class1th (Single Linked List)\Class1th (Single Linked List).vcxproj", "{E4A4AAB0-3B9F-4C87-A23C-653CC911CF0B}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class 2th", "..\Class2th\Class2th.vcxproj", "{594ECD4B-1E25-40E9-A68A-328970202782}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class2th", "..\Class2th\Class2th.vcxproj", "{594ECD4B-1E25-40E9-A68A-328970202782}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class 3th", "..\Class 3th\Class 3th.vcxproj", "{E665999F-77B4-4977-8F36-F96A9ED1FFED}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class3th", "..\Class 3th\Class 3th.vcxproj", "{E665999F-77B4-4977-8F36-F96A9ED1FFED}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class 4th vector", "..\Class 4th vector\Class 4th vector.vcxproj", "{BB304396-7E6A-47FB-BD44-0FD27D05527B}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class4th vector", "..\Class 4th vector\Class 4th vector.vcxproj", "{BB304396-7E6A-47FB-BD44-0FD27D05527B}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class5th", "..\Class5th\Class5th.vcxproj", "{AEB412DE-A5E6-4211-B261-C5A0A4CD1708}"
 EndProject
@@ -22,6 +22,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class8th", "..\Class8th\Class8th.vcxproj", "{0CAD873B-43B7-45DC-887E-2CC59EB35429}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class9th", "..\Class9th\Class9th.vcxproj", "{086B0FB7-96D8-4C13-901E-E3AD2F1AB212}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class10th", "..\Class10th\Class10th.vcxproj", "{8A553A88-A0D0-4789-93A4-C603D99BA14D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +113,14 @@ Global
 		{086B0FB7-96D8-4C13-901E-E3AD2F1AB212}.Release|x64.Build.0 = Release|x64
 		{086B0FB7-96D8-4C13-901E-E3AD2F1AB212}.Release|x86.ActiveCfg = Release|Win32
 		{086B0FB7-96D8-4C13-901E-E3AD2F1AB212}.Release|x86.Build.0 = Release|Win32
+		{8A553A88-A0D0-4789-93A4-C603D99BA14D}.Debug|x64.ActiveCfg = Debug|x64
+		{8A553A88-A0D0-4789-93A4-C603D99BA14D}.Debug|x64.Build.0 = Debug|x64
+		{8A553A88-A0D0-4789-93A4-C603D99BA14D}.Debug|x86.ActiveCfg = Debug|Win32
+		{8A553A88-A0D0-4789-93A4-C603D99BA14D}.Debug|x86.Build.0 = Debug|Win32
+		{8A553A88-A0D0-4789-93A4-C603D99BA14D}.Release|x64.ActiveCfg = Release|x64
+		{8A553A88-A0D0-4789-93A4-C603D99BA14D}.Release|x64.Build.0 = Release|x64
+		{8A553A88-A0D0-4789-93A4-C603D99BA14D}.Release|x86.ActiveCfg = Release|Win32
+		{8A553A88-A0D0-4789-93A4-C603D99BA14D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

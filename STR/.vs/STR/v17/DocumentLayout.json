@@ -5,6 +5,9 @@
     {
       "AbsoluteMoniker": "D:0:0:{0EF4A764-77F3-4228-B7F0-5DDB7463E720}|STR.vcxproj|C:\\Users\\juno0\\Desktop\\STRs\\STR\\Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{0EF4A764-77F3-4228-B7F0-5DDB7463E720}|STR.vcxproj|solutionrelative:Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A553A88-A0D0-4789-93A4-C603D99BA14D}|..\\Class10th\\Class10th.vcxproj|C:\\Users\\juno0\\Desktop\\STRs\\Class10th\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,10 +27,23 @@
               "RelativeDocumentMoniker": "Program.cpp",
               "ToolTip": "C:\\Users\\juno0\\Desktop\\STRs\\STR\\Program.cpp",
               "RelativeToolTip": "Program.cpp",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAAAIQAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-07-15T11:08:32.373Z",
               "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "C:\\Users\\juno0\\Desktop\\STRs\\Class10th\\Source.cpp",
+              "RelativeDocumentMoniker": "..\\Class10th\\Source.cpp",
+              "ToolTip": "C:\\Users\\juno0\\Desktop\\STRs\\Class10th\\Source.cpp",
+              "RelativeToolTip": "..\\Class10th\\Source.cpp",
+              "ViewState": "AgIAALUAAAAAAAAAAAA4wM4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-31T12:25:19.794Z",
               "EditorCaption": ""
             }
           ]
