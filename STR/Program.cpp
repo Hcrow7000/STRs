@@ -77,25 +77,15 @@ public:
 		}
 	}
 
-	void release(Node* root)
-	{
-		if (root != nullptr)
-		{
-			release(root->left);
-
-			release(root->right);
-
-			delete root;
-		}
-	}
-
 	void erase(T data)
 	{
 		Node* currentNode = root;
+		Node* parentNode = nullptr;
 
-		// 1. 자식 노드가 하나도 없을 때
-		while(currentNode != nullptr && currentNode->data != data)
+		while (currentNode != nullptr && currentNode->data != data)
 		{
+			parentNode = currentNode;
+
 			if (currentNode->data > data)
 			{
 				currentNode = currentNode->left;
@@ -106,9 +96,83 @@ public:
 			}
 		}
 
+		// 1. 자식 노드가 하나도 없을 때
+		if (currentNode == nullptr)
+		{
+			cout << "the data does not exist" << endl;
+		}
+		else if (currentNode->left == nullptr && currentNode->right == nullptr)
+		{
+			if (parentNode != nullptr)
+			{
+				if (parentNode->left == currentNode)
+				{
+					parentNode->left = nullptr;
+				}
+				else
+				{
+					parentNode->right = nullptr;
+				}
+			}
+			else
+			{
+				root = nullptr;
+			}
+		}
 		// 2. 자식 노드가 하나만 있을 때
+		else if (currentNode->left == nullptr || currentNode->right == nullptr)
+		{
+			if (currentNode == root)
+			{
+				if (currentNode->left != nullptr)
+				{
+					root = currentNode->left;
+				}
+				else
+				{
+					root = currentNode->right;
+				}
+			}
+			else
+			{
+				Node* childNode = nullptr;
 
+				if (currentNode->left != nullptr)
+				{
+					childNode = currentNode->left;
+				}
+				else
+				{
+					childNode = currentNode->right;
+				}
+
+				if (parentNode->left == currentNode)
+				{
+					parentNode->left = childNode;
+				}
+				else
+				{
+					parentNode->right = childNode;
+				}
+
+			}
+		}
 		// 3. 자식 노드가 두개 있을 때
+		
+
+		delete currentNode;
+	}
+
+	void release(Node* root)
+	{
+		if (root != nullptr)
+		{
+			release(root->left);
+
+			release(root->right);
+
+			delete root;
+		}
 	}
 
 	~Set()
@@ -122,11 +186,13 @@ int main()
 {
 	Set<int> set;
 	
-	set.insert(1);
-	set.insert(2);
-	set.insert(3);
-	set.insert(4);
+	set.insert(10);
 	set.insert(5);
+	set.insert(17);
+	set.insert(3);
+	set.insert(21);
+
+	set.erase(10);
 
 	return 0;
 }
