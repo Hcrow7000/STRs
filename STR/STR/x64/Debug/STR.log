@@ -1,2 +1,11 @@
 ﻿  Program.cpp
-  STR.vcxproj -> C:\Users\juno0\Desktop\STRs\STR\x64\Debug\STR.exe
+C:\Users\juno0\Desktop\STRs\STR\Program.cpp(227,3): error C2577: 'Set<int>': 소멸자은(는) 반환 형식을 가질 수 없습니다.
+      C:\Users\juno0\Desktop\STRs\STR\Program.cpp(227,3):
+      템플릿 인스턴스화 컨텍스트(가장 오래된 인스턴스화 컨텍스트)가
+          C:\Users\juno0\Desktop\STRs\STR\Program.cpp(234,11):
+          컴파일되는 클래스 템플릿 인스턴스화 'Set<int>'에 대한 참조를 확인하세요.
+          C:\Users\juno0\Desktop\STRs\STR\Program.cpp(225,3):
+          클래스 템플릿 멤버 함수 'Set<int>::~Set(void)'을(를) 컴파일하는 중입니다.
+              C:\Users\juno0\Desktop\STRs\STR\Program.cpp(234,11):
+              'main'에서 'Set<int>::~Set'에 대한 첫 번째 참조를 확인하세요.
+  
